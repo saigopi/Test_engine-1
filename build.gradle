@@ -1,3 +1,16 @@
+plugins {
+    id "org.sonarqube" version "2.5"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "Java :: Test Engine :: Sample"
+        property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+//        property "sonar.tests", "${projectDir}/src/test/java/functional"
+        property "sonar.junit.reportsPath", "${project.buildDir}/test-results/test"
+    }
+}
+
 group 'Unicredit_Test'
 version '1.0-SNAPSHOT'
 
@@ -8,14 +21,16 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
+
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
 test {
+    ignoreFailures = true
     reports {
         junitXml.enabled = true
     }
