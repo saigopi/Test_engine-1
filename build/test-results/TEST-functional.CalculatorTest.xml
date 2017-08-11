@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="functional.CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-08-10T12:36:20" hostname="IN-Vaishnavi.local" time="0.001">
+  <properties/>
+  <testcase name="subTest" classname="functional.CalculatorTest" time="0.0"/>
+  <testcase name="divisionTest" classname="functional.CalculatorTest" time="0.0"/>
+  <testcase name="addTest" classname="functional.CalculatorTest" time="0.0"/>
+  <testcase name="multiplyTest" classname="functional.CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
