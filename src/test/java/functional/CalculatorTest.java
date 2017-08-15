@@ -38,13 +38,13 @@ public class CalculatorTest {
 
     public void addTest1(){
         int addValue = test.addition(10, 12);
-        Assert.assertEquals(2, addValue);
+        Assert.assertEquals(22, addValue);
     }
 
     @Test
     public void subTest1(){
         int subValue = test.subtraction(10, 12);
-        Assert.assertEquals(-28, subValue);
+        Assert.assertEquals(-2, subValue);
     }
 
     @Test

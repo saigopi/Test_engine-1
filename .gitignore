@@ -5,3 +5,4 @@ gradle/
 gradlew*
 build/libs
 build/tmp
+.*
