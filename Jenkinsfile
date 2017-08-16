@@ -13,6 +13,6 @@ node('node') {
         echo "This time, the Gradle version"
         sh '~/gradle-4.1/bin/gradle test'
         echo "Soooooper"
-        echo "Thanks"
+        echo "Thank"
       }
 }
